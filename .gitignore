@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Cypress output and logs
+cypress/videos/
+cypress/screenshots/
+cypress/results/
+cypress/downloads/
+
+# Cypress config and environment files (if using)
+cypress.env.json
+cypress.config.local.js
+cypress.config.local.ts
+
+# Coverage reports (if using code coverage)
+coverage/
+.nyc_output/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if using a bundler)
+dist/
+build/
+
+# Test reports (if using Mochawesome, Allure, or other reporters)
+mochawesome-report/
+allure-results/
+junit-report.xml
