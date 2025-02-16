@@ -2,7 +2,8 @@
   "name": "cypress_project",
   "version": "1.0.0",
   "scripts": {
-    "test:addToCart": "npx cypress run --spec cypress/e2e/AddTocart.cy.js"
+    "test:addToCart": "npx cypress run --spec cypress/e2e/AddTocart.cy.js",
+    "test:registerflow": "npx cypress run --spec cypress/e2e/RegisterTest.cy.js"
   },
   "devDependencies": {
     "cypress": "^14.0.3",
