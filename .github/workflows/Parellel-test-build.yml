@@ -17,7 +17,7 @@ jobs:
         if: always()  #Test pass or fail report added
         uses: actions/upload-artifact@v4
         with:
-          name: Mocha awsome reporter
+          name: Mocha awsome reporter-Add to cart
           path: cypress/reports/html
 
   register-run:
@@ -36,5 +36,5 @@ jobs:
         if: always()  #Test pass or fail report added
         uses: actions/upload-artifact@v4
         with:
-          name: Mocha awsome reporter
+          name: Mocha awsome reporter-Registration
           path: cypress/reports/html
