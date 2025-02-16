@@ -13,6 +13,13 @@ jobs:
         with:
           command: npm run test:addToCart
 
+      - name: Cypress Test Report-Add to Cart
+        if: always()  #Test pass or fail report added
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mocha awsome reporter
+          path: cypress/reports/html
+
   register-run:
     runs-on: ubuntu-24.04
     steps:
@@ -24,3 +31,10 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:registerflow
+
+      - name: Cypress Test Report-Registration
+        if: always()  #Test pass or fail report added
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mocha awsome reporter
+          path: cypress/reports/html

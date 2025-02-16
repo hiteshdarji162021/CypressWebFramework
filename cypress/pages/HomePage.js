@@ -1,7 +1,7 @@
 export class HomePage{
     weblocators={
         searchInput:"input[name='search']",
-        clickSearch:".btn.btn-default",
+        clickSearch:".btn.btn-default1",
         product:"img[title='MacBook']",
         addToCart:"Add to Cart",
         successMessage:".alert-success"
